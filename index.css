@@ -23,27 +23,14 @@ body {
 }
 
 /*Colors*/
+ a {
+  color: green;
+  text-decoration: none;
+ }
 
-body {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.column-section {
-  width: 280px;
-  float: left;
-}
-
-#reflection {
-  clear: both;
-}
-
-.column-section, header, #reflection, footer {
-  padding: 10px;
-  margin: 10px;
-}
-
-/* COLORS */
+ a:hover {
+  color: purple;
+ }
 
 body {
   background-color: #444 ;
